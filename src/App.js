@@ -2,7 +2,7 @@ import { Container } from "@material-ui/core";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import "./App.css";
 import SimpleBottomNavigation from "./components/MainNav";
-import Navbar from "./components/navbar/Navbar";
+import Header from "./components/header/Header";
 import Movies from "./pages/movies/Movies";
 import Search from "./pages/search/Search";
 import Series from "./pages/series/Series";
@@ -11,7 +11,7 @@ import Trending from "./pages/trending/Trending";
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
+      <Header />
       <div className="app">
         <Container>
           <Switch>

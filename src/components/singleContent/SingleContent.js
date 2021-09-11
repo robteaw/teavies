@@ -12,7 +12,8 @@ const SingleContent = ({
   vote_average,
 }) => {
   return (
-    <ContentModal>
+    // Modal is displayed with the code below
+    <ContentModal media_type={media_type} id={id}>
       <Badge
         badgeContent={vote_average}
         color={vote_average > 6 ? "primary" : "secondary"}

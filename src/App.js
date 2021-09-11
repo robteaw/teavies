@@ -1,7 +1,7 @@
 import { Container } from "@material-ui/core";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import "./App.css";
-import SimpleBottomNavigation from "./components/MainNav";
+import SimpleBottomNavigation from "./components/Navbar";
 import Header from "./components/header/Header";
 import Movies from "./pages/movies/Movies";
 import Search from "./pages/search/Search";
@@ -22,7 +22,6 @@ function App() {
           </Switch>
         </Container>
       </div>
-
       <SimpleBottomNavigation />
     </BrowserRouter>
   );
